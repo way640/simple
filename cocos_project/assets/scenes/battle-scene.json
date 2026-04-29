@@ -1,0 +1,125 @@
+{
+  "scene": {
+    "name": "BattleScene",
+    "components": [
+      {
+        "type": "BattleScene",
+        "properties": {
+          "playerNode": {
+            "path": "Canvas/Player"
+          },
+          "monsterNodes": [
+            {
+              "path": "Canvas/Monsters/Monster1"
+            },
+            {
+              "path": "Canvas/Monsters/Monster2"
+            },
+            {
+              "path": "Canvas/Monsters/Monster3"
+            },
+            {
+              "path": "Canvas/Monsters/Monster4"
+            },
+            {
+              "path": "Canvas/Monsters/Monster5"
+            }
+          ],
+          "cardNodes": [
+            {
+              "path": "Canvas/Cards/Card1"
+            },
+            {
+              "path": "Canvas/Cards/Card2"
+            },
+            {
+              "path": "Canvas/Cards/Card3"
+            },
+            {
+              "path": "Canvas/Cards/Card4"
+            },
+            {
+              "path": "Canvas/Cards/Card5"
+            }
+          ],
+          "waveLabel": {
+            "path": "Canvas/WaveLabel"
+          },
+          "chapterLabel": {
+            "path": "Canvas/ChapterLabel"
+          },
+          "scoreLabel": {
+            "path": "Canvas/ScoreLabel"
+          },
+          "goldLabel": {
+            "path": "Canvas/GoldLabel"
+          },
+          "capacityLabel": {
+            "path": "Canvas/CapacityLabel"
+          },
+          "attackButton": {
+            "path": "Canvas/Actions/AttackButton"
+          },
+          "skillButton": {
+            "path": "Canvas/Actions/SkillButton"
+          },
+          "pickupButton": {
+            "path": "Canvas/Actions/PickupButton"
+          },
+          "discardButton": {
+            "path": "Canvas/Actions/DiscardButton"
+          }
+        }
+      },
+      {
+        "type": "CharacterUI",
+        "properties": {
+          "characterNode": {
+            "path": "Canvas/Player"
+          },
+          "nameLabel": {
+            "path": "Canvas/Player/NameLabel"
+          },
+          "hpLabel": {
+            "path": "Canvas/Player/HPLabel"
+          },
+          "attackLabel": {
+            "path": "Canvas/Player/AttackLabel"
+          },
+          "defenseLabel": {
+            "path": "Canvas/Player/DefenseLabel"
+          },
+          "levelLabel": {
+            "path": "Canvas/Player/LevelLabel"
+          },
+          "characterSprite": {
+            "path": "Canvas/Player/CharacterSprite"
+          },
+          "hpBarSprite": {
+            "path": "Canvas/Player/HPSprite"
+          },
+          "cardSlotContainer": {
+            "path": "Canvas/Player/CardSlots"
+          }
+        }
+      }
+    ]
+  },
+  "ui": {
+    "width": 1280,
+    "height": 720,
+    "background": "#333333"
+  },
+  "nodes": {
+    "Canvas": {
+      "position": {
+        "x": 640,
+        "y": 360
+      },
+      "size": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  }
+}
