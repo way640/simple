@@ -1,0 +1,30 @@
+{
+  "name": "survivor-card-evolution",
+  "version": "1.0.0",
+  "description": "《幸存者：卡牌进化》微信小程序Roguelite游戏",
+  "main": "assets/scenes/MainScene.ts",
+  "scripts": {
+    "build": "cocoscreator build",
+    "dev": "cocoscreator dev",
+    "test": "node test_game.js"
+  },
+  "dependencies": {
+    "cocoscreator": "^3.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "cocos",
+    "creator",
+    "微信小游戏",
+    "roguelite",
+    "card game"
+  ],
+  "author": "麦芽糖",
+  "license": "MIT"
+}
